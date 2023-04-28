@@ -1,0 +1,39 @@
+/* SOCIAL-NETWORK */
+.social-network {
+	display: inline-flex;
+	justify-content: center;
+}
+
+.social-network__item {
+	padding: 0;
+
+	&:not(:last-child) {
+		margin-right: 10px;
+	}
+}
+
+.social-network__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	fill: $svg-color;
+	transition: background-color $animation,
+		fill $animation;
+
+	&:hover,
+	&:focus {
+		fill: $White-color;
+		background-color: $Accent;
+	}
+}
+
+
+
+
+.social-network__icon {
+	width: 20px;
+	height: 20px;
+}

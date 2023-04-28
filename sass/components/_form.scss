@@ -1,0 +1,149 @@
+/*================ MOBAL ==================== */
+
+.form {
+	display: inline-flex;
+	flex-direction: column;
+
+}
+
+.form__text {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.15;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.form__label {
+	text-align: left;
+
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+	color: $Secondary-text-color;
+}
+
+.form__input--wrapper {
+	display: block;
+	position: relative;
+	margin-top: 4px;
+}
+
+.form__input {
+	padding-left: 42px;
+	height: 40px;
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid #21212133;
+	transition: border $animation;
+
+
+}
+
+.form__input:focus {
+	outline: none;
+	border: 1px solid $Accent;
+
+}
+
+.form__icon {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	fill: $primary-text-color;
+	transition: fill $animation;
+
+}
+
+.form__input:focus+.form__icon {
+	fill: $Accent;
+}
+
+.form__textarea {
+	margin-top: 4px;
+	margin-bottom: 20px;
+	padding: 12px 16px;
+	height: 120px;
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid #21212133;
+	resize: none;
+}
+
+.form__textarea:focus {
+	outline: none;
+	border: 1px solid $Accent;
+}
+
+.form__textarea::placeholder {
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+	color: rgba(117, 117, 117, 0.5);
+}
+
+.form__check--input {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.form__check--label {
+	color: $Secondary-text-color;
+
+	@media screen and (max-width: 1199px) {
+		font-size: 12px;
+		line-height: 1.16;
+		margin-bottom: 31px;
+		display: flex;
+		align-items: center;
+	}
+
+	@media screen and (min-width: 1200px) {
+		font-size: 14px;
+		line-height: 1.17;
+		text-align: center;
+		margin-bottom: 30px;
+
+	}
+
+	&::before {
+		@media screen and (min-width: 1200px) {
+			margin-right: 7px;
+		}
+
+		margin-right: 5px;
+		vertical-align: middle;
+		display: inline-block;
+		content: "";
+		height: 15px;
+		width: 16px;
+		border-radius: 4px;
+		border: 2px solid $primary-text-color;
+		transition: $animation;
+		cursor: pointer;
+	}
+}
+
+.form__check--input:checked~.form__check--label::before {
+	background-color: $Accent;
+	border-color: $Accent;
+	background-image: url('../IMG/icon\ check.svg');
+	background-size: contain;
+	background-origin: border-box;
+}
+
+.form__link {
+	@media screen and (max-width: 1199px) {
+		margin-left: 2px;
+	}
+
+	color: hsla(207, 90%, 54%, 1);
+}

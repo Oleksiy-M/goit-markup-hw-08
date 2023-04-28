@@ -1,0 +1,52 @@
+$primary-text-color: #212121;
+$Secondary-text-color: #757575;
+$Accent: #2196F3;
+$White-color: #FFFFFF;
+$svg-color: #afb1b8;
+$animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+/* ==========Утил========= */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.link {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	background-color: $White-color;
+	color: $primary-text-color;
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
+}

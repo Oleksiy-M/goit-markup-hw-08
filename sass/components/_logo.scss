@@ -1,0 +1,27 @@
+/* ====================== LOGO ====================== */
+.logo {
+	font-family: Raleway, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.16;
+	text-decoration: none;
+	transition: color $animation;
+
+	&:hover,
+	&:focus {
+		color: $Accent;
+	}
+
+	@media screen and (min-width: 1200px) {
+		font-size: 26px;
+		line-height: 1.2;
+	}
+
+
+}
+
+.logo__label {
+	font-family: Raleway, sans-serif;
+	color: $Accent;
+}

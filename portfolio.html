@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>восьмой-урок</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+	<link rel="stylesheet" href="./css/mine.min.css">
+</head>
+<body>
+<!--  PAGE-HEADER -->
+<header class="page-header">
+<div class="container page-header__wapperer">
+<nav class="page-header__nav">
+<!-- LOGO -->
+<a href="./index.html" class="logo page-header__logo">
+	<samp class="logo__label">Web</samp>Studio</a>
+<!-- SITE-NAV -->
+<ul class="site-nav list">
+	<li class="site-nav__item"><a href="./index.html" class="site-nav__link">Studio</a></li>
+	<li class="site-nav__item"><a href="./portfolio.html"class="site-nav__link site-nav__link--current">Portfolio</a></li>
+	<li class="site-nav__item"><a href="" class="site-nav__link ">Contacts</a></li>
+</ul>
+<!-- CONTACTS -->
+<ul class="contacts list">
+	<li class="contacts__item">
+		<a class="contacts__link" href="mailto:info@devstudio.com">
+		<svg class="contacts__icon" width="16" height="12" ><use href=./IMG/sprite.svg#envelope></use></svg>info@devstudio.com
+		</a>
+	</li>
+	<li class="contacts__item">
+		<a class="contacts__link" href="tel:+380961111111"><svg class="contacts__icon" width="16" height="12"><use href=./IMG/sprite.svg#tel></use></svg>+38 096 111 11 11
+		</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="section">
+<div class="container">
+	<h1 class="visually-hidden">Portfolio</h1>
+<!-- FILTER -->
+<ul class="cards list">
+            <li class="cards__item">
+               <a href="" class="cards__link">
+               <div class="cards__thumb">
+                  <picture>
+							<source srcset="./IMG/cards/cards-1.webp 1x, ./IMG/cards/cards1@2x.webp 2x"  media="(min-width: 1200px)" type="IMG/webp">
+							<source srcset="./IMG/cards/cards1.jpg 1x, ./IMG/cards/cards1@2x.jpg 2x"  media="(min-width: 1200px)">
+	
+							<source srcset="./IMG/cards/tablet/cards-tablet1.webp 1x, ./IMG/cards/tablet/cards-tablet1@2x.webp 2x" media="(min-width: 768px)" type="IMG/webp">
+							<source srcset="./IMG/cards/tablet/cards-tablet1.jpg 1x, ./IMG/cards/tablet/cards-tablet1@2x.jpg 2x" media="(min-width: 768px)">
+	
+							<source srcset="./IMG/cards/mobile/cards-mobil1.webp 1x, ./IMG/cards/mobile/cards-mobil1@2x.webp 2x" media="(max-width: 767px)" type="IMG/webp">
+							<source srcset="./IMG/cards/mobile/cards-mobil1.jpg 1x, ./IMG/cards/mobile/cards-mobil1@2x.jpg 2x" media="(max-width: 767px)">
+							<img src="./IMG/cards/cards1.jpg" alt="Сотрудники компании" class="cards-photo">
+						</picture>
+                  <div class="cards__overlay">
+                     <p class="cards__alert">
+                        Технокряк это современная площадка распространения коронавируса.Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                     </p>
+                  </div>
+               </div>
+               
+                  <div class="cards__content">
+                     <h2 class="cards__title">Технокряк</h2>
+                     <p class="cards__text">Веб-сайт</p>
+                  </div>
+               </a>	
+            </li>
+
+            <li class="cards__item">
+               <a href="" class="cards__link">
+                  <div class="cards__thumb">
+                  <picture>
+							<source srcset="./IMG/cards/cards2.webp 1x, ./IMG/cards/cards2@2x.webp 2x"  media="(min-width: 1200px)" type="IMG/webp">
+							<source srcset="./IMG/cards/cards2.jpg 1x, ./IMG/cards/cards2@2x.jpg 2x"  media="(min-width: 1200px)">
+	
+							<source srcset="./IMG/cards/tablet/cards-tablet2.webp 1x, ./IMG/cards/tablet/cards-tablet2@2x.webp 2x" media="(min-width: 768px)" type="IMG/webp">
+							<source srcset="./IMG/cards/tablet/cards-tablet2.jpg 1x, ./IMG/cards/tablet/cards-tablet2@2x.jpg 2x" media="(min-width: 768px)">
+	
+							<source srcset="./IMG/cards/mobile/cards-mobil2.webp 1x, ./IMG/cards/mobile/cards-mobil2@2x.webp 2x" media="(max-width: 767px)" type="IMG/webp">
+							<source srcset="./IMG/cards/mobile/cards-mobil2.jpg 1x, ./IMG/cards/mobile/cards-mobil2@2x.jpg 2x" media="(max-width: 767px)">
+							<img src="./IMG/cards/cards2.jpg" alt="Баскетбол"class="cards-photo">
+						</picture>
+                  <div class="cards__overlay">
+                     <p class="cards__alert">
+                        Технокряк это современная площадка распространения коронавируса.Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                     </p>
+                  </div>
+               </div>
+                  <div class="cards__content">
+                  <h2 class="cards__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="cards__text">Дизайн</p>
+               </div>
+               </a>	
+            </li>
+
+            <li class="cards__item">
+               <a href="" class="cards__link">
+                  <div class="cards__thumb">
+                  <picture>
+							<source srcset="./IMG/cards/cards3.webp 1x, ./IMG/cards/cards3@2x.webp 2x"  media="(min-width: 1200px)" type="IMG/webp">
+							<source srcset="./IMG/cards/cards3.jpg 1x, ./IMG/cards/cards3@2x.jpg 2x"  media="(min-width: 1200px)">
+	
+							<source srcset="./IMG/cards/tablet/cards-tablet3.webp 1x, ./IMG/cards/tablet/cards-tablet3@2x.webp 2x" media="(min-width: 768px)" type="IMG/webp">
+							<source srcset="./IMG/cards/tablet/cards-tablet3.jpg 1x, ./IMG/cards/tablet/cards-tablet3@2x.jpg 2x" media="(min-width: 768px)">
+	
+							<source srcset="./IMG/cards/mobile/cards-mobil3.webp 1x, ./IMG/cards/mobile/cards-mobil3@2x.webp 2x" media="(max-width: 767px)" type="IMG/webp">
+							<source srcset="./IMG/cards/mobile/cards-mobil3.jpg 1x, ./IMG/cards/mobile/cards-mobil3@2x.jpg 2x" media="(max-width: 767px)">
+							<img src="./IMG/cards/cards3.jpg" alt="Реклама ресторана" class="cards-photo">
+						</picture>
+                  <div class="cards__overlay">
+                     <p class="cards__alert">
+                        Технокряк это современная площадка распространения коронавируса.Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                     </p>
+                  </div>
+               </div>
+                  <div class="cards__content">
+                  <h2 class="cards__title">Ресторан Seafood</h2>
+                  <p class="cards__text">Приложения</p>
+               </div>
+               </a>	
+            </li>
+
+            <li class="cards__item">
+               <a href="" class="cards__link">
+                  <div class="cards__thumb">
+                  <picture>
+							<source srcset="./IMG/cards/cards4.webp 1x, ./IMG/cards/cards4@2x.webp 2x"  media="(min-width: 1200px)" type="IMG/webp">
+							<source srcset="./IMG/cards/cards4.jpg 1x, ./IMG/cards/cards4@2x.jpg 2x"  media="(min-width: 1200px)">
+	
+							<source srcset="./IMG/cards/tablet/cards-tablet4.webp 1x, ./IMG/cards/tablet/cards-tablet4@2x.webp 2x" media="(min-width: 768px)" type="IMG/webp">
+							<source srcset="./IMG/cards/tablet/cards-tablet4.jpg 1x, ./IMG/cards/tablet/cards-tablet4@2x.jpg 2x" media="(min-width: 768px)">
+	
+							<source srcset="./IMG/cards/mobile/cards-mobil4.webp 1x, ./IMG/cards/mobile/cards-mobil4@2x.webp 2x" media="(max-width: 767px)" type="IMG/webp">
+							<source srcset="./IMG/cards/mobile/cards-mobil4.jpg 1x, ./IMG/cards/mobile/cards-mobil4@2x.jpg 2x" media="(max-width: 767px)">
+							<img src="./IMG/cards/cards4.jpg" alt="Наушники"class="cards-photo">
+						</picture>
+                  <div class="cards__overlay">
+                     <p class="cards__alert">
+                        Технокряк это современная площадка распространения коронавируса.Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                     </p>
+                  </div>
+               </div>
+                  <div class="cards__content">
+                  <h2 class="cards__title">Проект Prime</h2>
+                  <p class="cards__text">Маркетинг</p>
+               </div>
+               </a>	
+            </li>
+
+            <li class="cards__item">
+               <a href="" class="cards__link">
+                  <div class="cards__thumb">
+                  <picture>
+							<source srcset="./IMG/cards/cards5.webp 1x, ./IMG/cards/cards5@2x.webp 2x"  media="(min-width: 1200px)" type="IMG/webp">
+							<source srcset="./IMG/cards/cards5.jpg 1x, ./IMG/cards/cards5@2x.jpg 2x"  media="(min-width: 1200px)">
+	
+							<source srcset="./IMG/cards/tablet/cards-tablet5.webp 1x, ./IMG/cards/tablet/cards-tablet5@2x.webp 2x" media="(min-width: 768px)" type="IMG/webp">
+							<source srcset="./IMG/cards/tablet/cards-tablet5.jpg 1x, ./IMG/cards/tablet/cards-tablet5@2x.jpg 2x" media="(min-width: 768px)">
+	
+							<source srcset="./IMG/cards/mobile/cards-mobil5.webp 1x, ./IMG/cards/mobile/cards-mobil5@2x.webp 2x" media="(max-width: 767px)" type="IMG/webp">
+							<source srcset="./IMG/cards/mobile/cards-mobil5.jpg 1x, ./IMG/cards/mobile/cards-mobil5@2x.jpg 2x" media="(max-width: 767px)">
+							<img src="./IMG/cards/cards5.jpg" alt="Две картонные коробки"class="cards-photo">
+						</picture>
+                  <div class="cards__overlay">
+                     <p class="cards__alert">
+                        Технокряк это современная площадка распространения коронавируса.Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                     </p>
+                  </div>
+               </div>
+                  <div class="cards__content">
+                  <h2 class="cards__title">Проект Boxes</h2>
+                  <p class="cards__text">Приложения</p>
+               </div>
+               </a>	
+            </li>
+
+            <li class="cards__item">
+               <a href="" class="cards__link">
+                  <div class="cards__thumb">
+                  <picture>
+							<source srcset="./IMG/cards/cards6.webp 1x, ./IMG/cards/cards6@2x.webp 2x"  media="(min-width: 1200px)" type="IMG/webp">
+							<source srcset="./IMG/cards/cards6.jpg 1x, ./IMG/cards/cards6@2x.jpg 2x"  media="(min-width: 1200px)">
+	
+							<source srcset="./IMG/cards/tablet/cards-tablet6.webp 1x, ./IMG/cards/tablet/cards-tablet6@2x.webp 2x" media="(min-width: 768px)" type="IMG/webp">
+							<source srcset="./IMG/cards/tablet/cards-tablet6.jpg 1x, ./IMG/cards/tablet/cards-tablet6@2x.jpg 2x" media="(min-width: 768px)">
+	
+							<source srcset="./IMG/cards/mobile/cards-mobil6.webp 1x, ./IMG/cards/mobile/cards-mobil6@2x.webp 2x" media="(max-width: 767px)" type="IMG/webp">
+							<source srcset="./IMG/cards/mobile/cards-mobil6.jpg 1x, ./IMG/cards/mobile/cards-mobil6@2x.jpg 2x" media="(max-width: 767px)">
+							<img src="./IMG/cards/cards6.jpg" alt="Монитор"class="cards-photo">
+						</picture>
+                  <div class="cards__overlay">
+                     <p class="cards__alert">
+                        Технокряк это современная площадка распространения коронавируса.Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                     </p>
+                  </div>
+               </div>
+                  <div class="cards__content">
+							<h2 class="cards__title">Inspiration has no Borders</h2>
+							<p class="cards__text">Веб-сайт</p>
+               	</div>
+               </a>	
+            </li>
+
+            <li class="cards__item">
+               <a href="" class="cards__link">
+                  <div class="cards__thumb">
+                  <picture>
+							<source srcset="./IMG/cards/cards7.webp 1x, ./IMG/cards/cards7@2x.webp 2x"  media="(min-width: 1200px)" type="IMG/webp">
+							<source srcset="./IMG/cards/cards7.jpg 1x, ./IMG/cards/cards7@2x.jpg 2x"  media="(min-width: 1200px)">
+	
+							<source srcset="./IMG/cards/tablet/cards-tablet7.webp 1x, ./IMG/cards/tablet/cards-tablet7@2x.webp 2x" media="(min-width: 768px)" type="IMG/webp">
+							<source srcset="./IMG/cards/tablet/cards-tablet1.jpg 1x, ./IMG/cards/tablet/cards-tablet7@2x.jpg 2x" media="(min-width: 768px)">
+	
+							<source srcset="./IMG/cards/mobile/cards-mobil7.webp 1x, ./IMG/cards/mobile/cards-mobil7@2x.webp 2x" media="(max-width: 767px)" type="IMG/webp">
+							<source srcset="./IMG/cards/mobile/cards-mobil7.jpg 1x, ./IMG/cards/mobile/cards-mobil7@2x.jpg 2x" media="(max-width: 767px)">
+							<img src="./IMG/cards/cards7.jpg" alt="Рекламный буклет"class="cards-photo">
+						</picture>
+                  <div class="cards__overlay">
+                     <p class="cards__alert">
+                        Технокряк это современная площадка распространения коронавируса.Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                     </p>
+                  </div>
+               </div>
+                  <div class="cards__content">
+                  <h2 class="cards__title">Издание Limited Edition</h2>
+                  <p class="cards__text">Дизайн</p>
+               </div>
+               </a>	
+            </li>
+
+            <li class="cards__item">
+            <a href="" class="cards__link">
+                  <div class="cards__thumb">
+                  <picture>
+							<source srcset="./IMG/cards/cards8.webp 1x, ./IMG/cards/cards8@2x.webp 2x"  media="(min-width: 1200px)" type="IMG/webp">
+							<source srcset="./IMG/cards/cards8.jpg 1x, ./IMG/cards/cards8@2x.jpg 2x"  media="(min-width: 1200px)">
+	
+							<source srcset="./IMG/cards/tablet/cards-tablet8.webp 1x, ./IMG/cards/tablet/cards-tablet8@2x.webp 2x" media="(min-width: 768px)" type="IMG/webp">
+							<source srcset="./IMG/cards/tablet/cards-tablet8.jpg 1x, ./IMG/cards/tablet/cards-tablet8@2x.jpg 2x" media="(min-width: 768px)">
+	
+							<source srcset="./IMG/cards/mobile/cards-mobil8.webp 1x, ./IMG/cards/mobile/cards-mobil8@2x.webp 2x" media="(max-width: 767px)" type="IMG/webp">
+							<source srcset="./IMG/cards/mobile/cards-mobil8.jpg 1x, ./IMG/cards/mobile/cards-mobil8@2x.jpg 2x" media="(max-width: 767px)">
+							<img src="./IMG/cards/cards8.jpg" alt="Жетон"class="cards-photo">
+						</picture>
+                  <div class="cards__overlay">
+                     <p class="cards__alert">
+                        Технокряк это современная площадка распространения коронавируса.Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                     </p>
+                  </div>
+               </div>
+                  <div class="cards__content">
+                  <h2 class="cards__title">Проект LAB</h2>
+                  <p class="cards__text">Маркетинг</p>
+               </div>
+               </a>	
+            </li>
+
+            <li class="cards__item">
+            <a href="" class="cards__link">
+                  <div class="cards__thumb">
+                  <picture>
+							<source srcset="./IMG/cards/cards9.webp 1x, ./IMG/cards/cards9@2x.webp 2x"  media="(min-width: 1200px)" type="IMG/webp">
+							<source srcset="./IMG/cards/cards9.jpg 1x, ./IMG/cards/cards9@2x.jpg 2x"  media="(min-width: 1200px)">
+	
+							<source srcset="./IMG/cards/tablet/cards-tablet9.webp 1x, ./IMG/cards/tablet/cards-tablet9@2x.webp 2x" media="(min-width: 768px)" type="IMG/webp">
+							<source srcset="./IMG/cards/tablet/cards-tablet9.jpg 1x, ./IMG/cards/tablet/cards-tablet9@2x.jpg 2x" media="(min-width: 768px)">
+	
+							<source srcset="./IMG/cards/mobile/cards-mobil9.webp 1x, ./IMG/cards/mobile/cards-mobil9@2x.webp 2x" media="(max-width: 767px)" type="IMG/webp">
+							<source srcset="./IMG/cards/mobile/cards-mobil9.jpg 1x, ./IMG/cards/mobile/cards-mobil9@2x.jpg 2x" media="(max-width: 767px)">
+							<img src="./IMG/cards/cards9.jpg" alt="Ноутбук"class="cards-photo">
+						</picture>
+                  <div class="cards__overlay">
+                     <p class="cards__alert">
+                        Технокряк это современная площадка распространения коронавируса.Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                     </p>
+                  </div>
+               </div>
+                  <div class="cards__content">
+                  <h2 class="cards__title">Growing Business</h2>
+                  <p class="cards__text">Приложения</p>
+               </div>
+               </a>	
+            </li>
+         </ul>
+</div>
+</section>
+</main>
+
+<!--Footer-->
+<footer class="page-footer">
+<div class="container">
+
+<div class="page-footer__address">
+<address>
+	<a href="" class="logo page-footer__logo"><samp class="logo__label">Web</samp>Studio</a>
+	<ul class="page-footer__list list">
+		<li class="page-footer__item">
+			<a class="page-footer__contacts page-footer__contacts--city" href="https://goo.gl/maps/dV1eHeY4zasvSxY77" target="_blank" rel="noopener noreferrer">Kyiv, Lesia Ukrainka Ave, 26</a></li>
+		<li class="page-footer__item">
+			<a href="mailto:info@example.com" class="page-footer__contacts">info@devstudio.com</a></li>
+		<li class="page-footer__item">
+			<a href="tel:+380991111111" class="page-footer__contacts">+38 096 111 11 11</a></li>
+	</ul>
+</address>
+</div>
+<!-- JOIN -->
+<div class="join">
+<h3 class="join__title">JOIN TO US</h3>
+	<ul class="join__list list">
+		<li class="join__item"><a class="join__link link" href="">
+			<svg class="join__icon"><use href="./IMG/sprite.svg#instagram"></use></svg></a></li>
+		<li class="join__item"><a class="join__link link" href="">
+			<svg class="join__icon"><use href=./IMG/sprite.svg#twitter></use></svg></a></li>
+		<li class="join__item"><a class="join__link link" href="">
+			<svg class="join__icon"><use href=./IMG/sprite.svg#facebook></use></svg></a></li>
+		<li class="join__item"><a class="join__link link" href="">
+			<svg class="join__icon"><use href=./IMG/sprite.svg#linkedin></use></svg></a></li>
+	</ul>
+</div>
+<!-- AUTH -->
+<div class="auth">
+	<form class="auth__form">
+		<h3 class="auth__title">Subscribe to newsletter</h3>
+		<div class="auth__wrapper">
+			<label><input class="auth__input" type="email" name="email" placeholder="E-mail"></label>
+			<button type="submit" class="button button--submit">Subscribe
+			<svg width="24" height="24" class="button__icon"><use href="./IMG/sprite.svg#send"></use></svg></button>
+		</div>
+	</form>
+</div>
+
+</div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
